@@ -29,3 +29,7 @@ test(".cancerresearch tld", () => {
 test(".porn tld", () => {
     expect(validateEmail("John.Doe@myhomemade.porn")).toBeTruthy()
 });
+
+test("argentinian email test", () => {
+    expect(validateEmail("ñoñó1234@server.com")).toBeTruthy()
+});
