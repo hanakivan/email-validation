@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/email-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple & lightweight js library to validate an email address",
   "main": "./dist/index.js",
   "scripts": {
